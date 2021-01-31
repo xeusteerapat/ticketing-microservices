@@ -1,5 +1,5 @@
 import express, { Request, Response } from 'express';
-const { body, validationResult } = require('express-validator');
+import { body, validationResult } from 'express-validator';
 import { DatabaseConnectionError } from './../errors/database-connection-error';
 import { RequestValidationError } from './../errors/request-validation-error';
 
